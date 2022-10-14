@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
+body{
+    width: 100vw;
+    min-height:100vh;
+}
+.bg_img_container{
+    background-image: url("Img/logo\ 300.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.text_title{
+    margin: 0 auto;
+    font-size: 47px;
+    font-family: 'Graduate', cursive;
+    margin-top: 8%;
+}
+.icn_back_header{
+    margin-top: 16%;
+    font-size: 40px;
+    position: absolute;
+    margin-left: 24px;
+}
+.content_card_body{
+    padding: 0px 10px;
+}
+.card_container_card{
+    --bs-card-bg: transparent  !important;
+    border: 0 !important;
+    margin: 0 auto;
+    width: 86%;
+}
+.card_content_m{
+    margin: 16px 0px;
+}
+.card_img_top{
+    border: 6px solid;
+    border-radius: 10px;
+    border-color: #D86565;
+}
+.bt_card{
+    background: #D9D9D9;    
+    border-color:#D9D9D9;
+    border-radius: 10px;
+}
